@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="#F4F2F2"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content"
+ >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/customrec_orders_img_productimg"
+            android:layout_width="75dp"
+            android:layout_centerVertical="true"
+            android:layout_height="75dp"/>
+
+        <TextView
+            android:id="@+id/customrec_orders_txt_productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/customrec_orders_img_productimg"
+            android:layout_toRightOf="@+id/customrec_orders_img_productimg"
+            android:layout_marginLeft="5dp"
+            android:text="Polo"
+            android:textColor="#000"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/customrec_orders_txt_productQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/customrec_orders_img_productimg"
+            android:layout_toRightOf="@+id/customrec_orders_img_productimg"
+            android:layout_below="@id/customrec_orders_txt_productName"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="123"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/customrec_orders_txt_customerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/customrec_orders_img_productimg"
+            android:layout_toRightOf="@+id/customrec_orders_img_productimg"
+            android:layout_below="@id/customrec_orders_txt_productQuantity"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Müşteri Adı"
+            android:textColor="#F45C5C"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/customrec_orders_txt_orderDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentRight="true"
+            android:text="21.01.2021"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/customrec_orders_txt_orderDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/customrec_orders_txt_productQuantity"
+            android:layout_alignParentRight="true"
+            android:text="Sipariş Detayı"
+            android:textColor="#DF1C1C"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.OrderTypeFragment">
+
+    <ImageView
+        android:id="@+id/FtOrderType_img_back"
+        android:layout_width="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/circle"
+        android:src="@drawable/left_backscreen"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:textColor="#555252"
+        android:gravity="center"
+        android:text="Bir Model Seçin..."/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/FtOrderType_rec_orderTypes"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

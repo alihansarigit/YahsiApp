@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "130106242757",
+    "firebase_url": "https://yahsiapp-default-rtdb.firebaseio.com",
+    "project_id": "yahsiapp",
+    "storage_bucket": "yahsiapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130106242757:android:350854fe76906e107222ac",
+        "android_client_info": {
+          "package_name": "com.yuhdeveloper.yahsi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130106242757-tp5ll294a7vnsj8vvne09gq134kngl2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yuhdeveloper.yahsi",
+            "certificate_hash": "25b8eab8a58fe51b2e04dcc71224c06fa17ca215"
+          }
+        },
+        {
+          "client_id": "130106242757-dtc405sk31mcbv5ac68oqlmqoe8dt933.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_Yai-QOwQpXX-HgxLnX_VClIogP6C1WM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130106242757-dtc405sk31mcbv5ac68oqlmqoe8dt933.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
